@@ -6,7 +6,7 @@
     <style>
         body {
             background-image: url('![rehan-nugroho-img-20210721-084040](https://github.com/user-attachments/assets/214148c8-ec46-49cc-9478-9e54e827bbdf)'); /* Replace with a URL to your background image */
-            background-size: 12 cover;
+            background-size 12 cover;
             background-position: center;
             display: flex;
             justify-content: center;
