@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Realeza</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+		}
+		.header {
+			background-color: #f1f1f1;
+			padding: 20px;
+			text-align: center;
+		}
+		.navbar {
+			background-color: #333;
+			color: white;
+			padding: 10px;
+			text-align: center;
+		}
+		.navbar a {
+			color: white;
+			text-decoration: underline;
+			padding: 10px;
+		}
+		.products {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		.product {
+			background-color: #f1f1f1;
+			margin: 10px;
+			padding: 10px;
+			width: calc(33.33% - 20px);
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		.product img {
+			width: 100%;
+			height: 150px;
+			object-fit: cover;
+		}
+		.product h2 {
+			font-size: 18px;
+			margin-bottom: 10px;
+		}
+		.product p {
+			font-size: 14px;
+			margin-bottom: 10px;
+		}
+		.product button {
+			background-color: #4CAF50;
+			color: white;
+			border: none;
+			padding: 10px;
+			width: 100%;
+			cursor: pointer;
+		}
+		.product button:hover {
+			background-color: #45a049;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1>Realeza</h1>
+	</div>
+	<div class="navbar">
+		<a href="#">Home</a>
+		<a href="#">Products</a>
+		<a href="#">About</a>
+		<a href="#">Contact</a>
+                <a href="#">Your Cart</a>
+	</div>
+	<div class="products">
+		<div class="product">
+			<img src="messi.jpg" alt="Product 1">
+			<h2>Product 1</h2>
+			<p>Price: $10.99</p>
+			<button>Add to Cart</button>
+		</div>
+		<div class="product">
+			<img src="product2.jpg" alt="Product 2">
+			<h2>Product 2</h2>
+			<p>Price: $9.99</p>
+			<button>Add to Cart</button>
+		</div>
+		<div class="product">
+			<img src="product3.jpg" alt="Product 3">
+			<h2>Product 3</h2>
+			<p>Price: $12.99</p>
+			<button>Add to Cart</button>
+		</div>
+	</div>
+</body>
+</html>
